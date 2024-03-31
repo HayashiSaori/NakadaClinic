@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #fcfcfc;
   color: #3c1606;
