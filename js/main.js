@@ -19,7 +19,11 @@ $(function () {
       $("#header").addClass("open");
     }
   });
-
+  // メニューが表示されている時にリンクをクリックした場合
+  $(".sp-nav__link").on("click", function () {
+    // openクラスを削除して、メニューを閉じる
+    $("#header").removeClass("open");
+  });
   // メニューが表示されている時に画面をクリックした場合
   $("#mask").on("click", function () {
     // openクラスを削除して、メニューを閉じる
